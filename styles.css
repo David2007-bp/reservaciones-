@@ -162,4 +162,11 @@ input, button:not(.button) {
     font-size: 13px !important;
     padding: 6px 10px !important;
   }
+
+  input,button:not(.button) {
+    display: block;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
