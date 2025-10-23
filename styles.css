@@ -84,6 +84,14 @@ h1, h2 {
   background-color: #218838;
 }
 
+input {
+  margin-left: 20px;
+}
+
+button {
+  margin-left: 20px;
+}
+
 /* ==== TABLET ==== */
 @media (max-width: 768px) {
   .container {
@@ -158,4 +166,3 @@ h1, h2 {
     padding: 6px 10px !important;
   }
 }
-
