@@ -84,15 +84,12 @@ h1, h2 {
   background-color: #218838;
 }
 
-input {
+input, button:not(.button) {
+  display: block;
   margin-left: 20px;
+  margin-top: 10px;
 }
 
-button {
-  margin-left: 20px;
-}
-
-/* ==== TABLET ==== */
 @media (max-width: 768px) {
   .container {
     padding: 15px;
