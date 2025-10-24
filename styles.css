@@ -170,3 +170,18 @@ input, button:not(.button) {
     margin-right: auto;
   }
 }
+
+input,button:not(.button) {
+  display: block;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+#reporte, .reporte-container {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  word-wrap: break-word;
+  box-sizing: border-box;
+}
+
