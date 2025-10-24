@@ -90,6 +90,12 @@ input, button:not(.button) {
   margin-top: 10px;
 }
 
+input, button:not(.button) {
+  display: block;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
 @media (max-width: 768px) {
   .container {
     padding: 15px;
@@ -108,6 +114,10 @@ input, button:not(.button) {
   .button {
     padding: 4px 6px;
     font-size: 12px;
+  }
+
+  pre {
+    max-width: 200px;
   }
 }
 
@@ -163,25 +173,12 @@ input, button:not(.button) {
     padding: 6px 10px !important;
   }
 
-  input,button:not(.button) {
+  input, button:not(.button) {
     display: block;
     width: 85%;
     margin-left: auto;
     margin-right: auto;
   }
-}
 
-input,button:not(.button) {
-  display: block;
-  margin-left: auto !important;
-  margin-right: auto !important;
-}
-
-#reporte, .reporte-container {
-  width: 100%;
-  max-width: 100%;
-  overflow-x: auto;
-  word-wrap: break-word;
-  box-sizing: border-box;
 }
 
