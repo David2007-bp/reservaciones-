@@ -210,3 +210,25 @@ pre {
     height: 140px !important;
   }
 }
+
+@media (max-width: 915px) and (orientation: landscape) {
+  input,
+  button:not(.button) {
+    width: 90% !important;
+    max-width: 300px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block !important;
+  }
+}
+
+@media (min-width: 916px) {
+  input,
+  button:not(.button) {
+    width: 90% !important;
+    max-width: 500px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block !important;
+  }
+}
